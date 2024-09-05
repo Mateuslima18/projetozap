@@ -1,7 +1,7 @@
 body{
 margin: 0;
 padding: 0;
-background-color: rgb(163, 66, 66);
+background-color: rgb(255, 255, 255);
 }
  
 .topo{
@@ -51,21 +51,22 @@ border-radius: 5px 5px 5px 5px;
 
 
 .icone1{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     margin-left: 50px;
+   
 }
 
 .icone2{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     margin-left: 75px;
     margin-top: 30px;
 }
 
 .icone3{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     margin-left: 100px;
     margin-top: 30px;
 }
@@ -100,7 +101,35 @@ border-radius:10px 10px 10px 10px  ;
 height: 100px;
 width:160px ;
 margin-left:210px ;
-margin-top: -300px ;
+margin-top: -150px ;
 border-radius:10px 10px 10px 10px  ;
+display: flex;
+}
 
+.foto5{
+    height: 150px;
+    width: 190px;
+    margin-left: 10px;
+margin-top: 60px;
+display: flex;
+border-radius: 10px 10px 10px 10px;
+}
+
+
+.foto6{
+    height: 200px;
+    width: 160px;
+    margin-left: 10px;
+ margin-left: 210px;
+margin-top: -200px;
+border-radius: 10px 10px 10px 10px;
+display: flex;
+}
+
+.final{
+background-color: rgb(23, 216, 23);
+width: 95%;
+height: 50px;
+border-radius: 15px 15px 15px 15px;
+margin: auto;
 }
