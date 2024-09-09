@@ -1,13 +1,15 @@
 body{
 margin: 0;
 padding: 0;
-background-color: rgb(253, 253, 253);
+background-color: rgb(255, 255, 255);
 }
 
 
 h2{
-margin-top:150px;
+margin-top:50px;
 display: flex;
+margin-left: 150px;
+
 }
 
 
@@ -137,20 +139,40 @@ border-radius: 10px 10px 10px 10px;
 display: flex;
 }
 
-.final{
- background-color: rgb(48, 202, 48);
- width: 95%;
- height: 50px;
- border-radius: 15px 15px 15px 15px;
- margin: auto;
- position: fixed;
- display: flex;
- margin-top: 100%;
-}
 
 
 .hoteis{
   margin-top: 50px;
+  justify-content: center;
+  margin-left: 50px;
+  margin-top: 5px;
+  font-size: medium;
+}
+
+.voos{
+    margin-top: 50px;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: -20px;
+    display: flex;
+    font-size: medium;
+}
 
 
+
+.todos{
+    margin-left: 300px;
+    margin-top: -20px;
+    display: flex;
+    font-size: medium;
+}
+
+.final{
+    background-color: green;
+    position: sticky;
+    bottom: 0;
+    width: 95%;
+    height: 50px;
+    border-radius: 15px 15px 15px 15px;
+    margin: auto;
 }
