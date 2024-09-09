@@ -1,9 +1,16 @@
 body{
 margin: 0;
 padding: 0;
-background-color: rgb(255, 255, 255);
+background-color: rgb(253, 253, 253);
 }
- 
+
+
+h2{
+margin-top:150px;
+display: flex;
+}
+
+
 .topo{
 background-color: rgb(46, 190, 58);
 width: 100%;
@@ -60,15 +67,19 @@ border-radius: 5px 5px 5px 5px;
 .icone2{
     height: 40px;
     width: 40px;
-    margin-left: 75px;
+    margin-left: 80px;
     margin-top: 30px;
+
 }
+
+
 
 .icone3{
     height: 40px;
     width: 40px;
-    margin-left: 100px;
-    margin-top: 30px;
+    margin-left: 300px;
+    margin-top: -45px;
+    display: flex;
 }
 
 .foto1{
@@ -127,9 +138,19 @@ display: flex;
 }
 
 .final{
-background-color: rgb(23, 216, 23);
-width: 95%;
-height: 50px;
-border-radius: 15px 15px 15px 15px;
-margin: auto;
+ background-color: rgb(48, 202, 48);
+ width: 95%;
+ height: 50px;
+ border-radius: 15px 15px 15px 15px;
+ margin: auto;
+ position: fixed;
+ display: flex;
+ margin-top: 100%;
+}
+
+
+.hoteis{
+  margin-top: 50px;
+
+
 }
