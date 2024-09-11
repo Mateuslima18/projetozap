@@ -48,6 +48,7 @@ margin-left: 150px;
 margin-left: -90px;
 height: 30px;
 width: 30px;
+filter: invert(100%);
 }
 
 
@@ -135,10 +136,10 @@ border-radius: 10px 10px 10px 10px;
     height: 200px;
     width: 160px;
     margin-left: 10px;
- margin-left: 210px;
-margin-top: -200px;
-border-radius: 10px 10px 10px 10px;
-display: flex;
+    margin-left: 210px;
+    margin-top: -200px;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
 }
 
 
@@ -177,4 +178,41 @@ display: flex;
     height: 50px;
     border-radius: 15px 15px 15px 15px;
     margin: auto;
+    margin-top: 3%;
+    
 }
+
+
+
+.aviaofinal{
+   height: 50px;
+   width: 80px;
+   margin-left: 10px;
+}
+
+
+.hotelfinal{
+    height: 50px;
+    width: 50px;
+    margin-left: 110px;
+    margin-top: -55px;
+    display: flex;
+}
+
+.malafinal{
+    height: 40px;
+    width: 60px;
+    margin-left: 190px;
+    margin-top: -45px;
+    display: flex;
+}
+
+.usuariofinal{
+    height: 50px;
+    width: 30px;
+    margin-left: 290px;
+    margin-top: -45px;
+    display: flex;
+}
+
+
