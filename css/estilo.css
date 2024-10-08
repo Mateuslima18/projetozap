@@ -59,6 +59,7 @@ display: flex;
 height: 30px;
 width: 50%;
 border-radius: 5px 5px 5px 5px;
+border-color: white;
 }
 
 
@@ -179,7 +180,6 @@ border-radius: 10px 10px 10px 10px;
     border-radius: 15px 15px 15px 15px;
     margin: auto;
     margin-top: 3%;
-    
 }
 
 
